@@ -581,3 +581,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   README.md
         new file:   app/accounts/urls.py
         modified:   config/urls.py
+
+
+#### 49. Membuat login template
+
+        modified:   README.md
+        new file:   app/accounts/templates/registration/login.html
