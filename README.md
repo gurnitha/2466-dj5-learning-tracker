@@ -260,7 +260,7 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   app/learning_logs/models.py
 
 
-#### 10. Membuat topik melalui admin panel
+#### 20. Membuat topik melalui admin panel
 
         mysql> SELECT * FROM learning_logs_topic;
         +----+---------+----------------------------+
@@ -273,13 +273,13 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         3 rows in set (0.00 sec)
 
 
-#### 11. Membuat models Entry
+#### 21. Membuat models Entry
 
         modified:   README.md
         modified:   app/learning_logs/models.py
 
 
-#### 12. Menjalankan migrasi
+#### 22. Menjalankan migrasi
 
         (venv312504) λ python manage.py makemigrations learning_logs
         Migrations for 'learning_logs':
@@ -292,3 +292,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
           Target specific migration: 0002_entry, from learning_logs
         Running migrations:
           Applying learning_logs.0002_entry... OK
+
+
+#### 23. Mendaftarkan models Topic pada admin site
+
+        modified:   README.md
+        modified:   app/learning_logs/admin.py
