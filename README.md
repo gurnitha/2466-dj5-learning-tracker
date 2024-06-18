@@ -770,3 +770,15 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/views.py
+
+
+### STYLING
+
+
+#### 62. Install Bootstrap5
+
+        (venv312504) λ pip install django-bootstrap5
+        Collecting django-bootstrap5
+
+        modified:   README.md
+        modified:   config/settings.py

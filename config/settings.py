@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 
+    # Third party apps.
+    'django_bootstrap5',
+
     # new locals
     "app.learning_logs.apps.LearningLogsConfig",
     "app.accounts.apps.AccountsConfig",
