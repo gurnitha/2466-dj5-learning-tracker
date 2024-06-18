@@ -213,3 +213,41 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         | date_added | datetime(6)  | NO   |     | NULL    |                |
         +------------+--------------+------+-----+---------+----------------+
         3 rows in set (0.04 sec)
+
+
+#### 18. Membuat Superuser
+
+        (venv312504) λ python manage.py createsuperuser
+        Username (leave blank to use 'ing'): superuser
+        Email address: superuser@mail.com
+        Password:
+        Password (again):
+        The password is too similar to the email address.
+        Bypass password validation and create user anyway? [y/N]: y
+        Superuser created successfully.
+
+        mysql> DESC auth_user;
+        +--------------+--------------+------+-----+---------+----------------+
+        | Field        | Type         | Null | Key | Default | Extra          |
+        +--------------+--------------+------+-----+---------+----------------+
+        | id           | int          | NO   | PRI | NULL    | auto_increment |
+        | password     | varchar(128) | NO   |     | NULL    |                |
+        | last_login   | datetime(6)  | YES  |     | NULL    |                |
+        | is_superuser | tinyint(1)   | NO   |     | NULL    |                |
+        | username     | varchar(150) | NO   | UNI | NULL    |                |
+        | first_name   | varchar(150) | NO   |     | NULL    |                |
+        | last_name    | varchar(150) | NO   |     | NULL    |                |
+        | email        | varchar(254) | NO   |     | NULL    |                |
+        | is_staff     | tinyint(1)   | NO   |     | NULL    |                |
+        | is_active    | tinyint(1)   | NO   |     | NULL    |                |
+        | date_joined  | datetime(6)  | NO   |     | NULL    |                |
+        +--------------+--------------+------+-----+---------+----------------+
+        11 rows in set (0.00 sec)
+
+        mysql> SELECT username, is_staff, is_active FROM auth_user;
+        +-----------+----------+-----------+
+        | username  | is_staff | is_active |
+        +-----------+----------+-----------+
+        | superuser |        1 |         1 |
+        +-----------+----------+-----------+
+        1 row in set (0.00 sec)
