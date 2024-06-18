@@ -6,7 +6,7 @@ from django.shortcuts import render, redirect
 
 # Locals
 from app.learning_logs.models import Topic
-
+from app.learning_logs.forms import TopicForm
 
 # Create your views here.
 

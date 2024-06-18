@@ -476,3 +476,11 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/views.py
+
+
+#### 38. Adding New Topics part 4: Membuat form template
+
+        modified:   README.md
+        new file:   app/learning_logs/templates/learning_logs/new_topic.html
+        modified:   app/learning_logs/templates/learning_logs/topics.html
+        modified:   app/learning_logs/views.py
