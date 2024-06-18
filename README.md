@@ -304,7 +304,7 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/models.py
-        
+
         mysql> SHOW TABLES;
         +-------------------------------------+
         | Tables_in_2466_dj5_learning_tracker |
@@ -347,3 +347,32 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         |  6 | Etry 2 dari topic 3 | 2024-06-18 06:57:15.654526 |        3 |
         +----+---------------------+----------------------------+----------+
         6 rows in set (0.00 sec)
+
+
+#### 24. Menggunakan Djano shell
+
+        (venv312504) λ python manage.py shell
+        Python 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)] on win32
+        Type "help", "copyright", "credits" or "license" for more information.
+        (InteractiveConsole)
+
+        >>> from app.learning_logs.models import Topic
+        >>> Topic.objects.all()
+        <QuerySet [<Topic: Topic 1>, <Topic: Topic 2>, <Topic: Topic 3>]>
+
+        >>> topics = Topic.objects.all()
+        >>> for topic in topics:
+        ...     print(topic.id, topic)
+        ...
+        1 Topic 1
+        2 Topic 2
+        3 Topic 3
+
+        >>> t = Topic.objects.get(id=1)
+        >>> t.text
+        'Topic 1'
+        >>> t.date_added
+        datetime.datetime(2024, 6, 18, 6, 35, 26, 576089, tzinfo=datetime.timezone.utc)
+
+        >>> t.entry_set.all()
+        <QuerySet [<Entry: Etry 1 dari topic 1...>, <Entry: Etry 2 dari topic 1...>]>
