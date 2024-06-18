@@ -17,9 +17,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
 #### 3. Menginstal Django versi 5.0.4
 
-	λ venv312504\Scripts\activate.bat
-	(venv312504) λ pip install django==5.0.4
-	Collecting django==5.0.4
+        λ venv312504\Scripts\activate.bat
+        (venv312504) λ pip install django==5.0.4
+        Collecting django==5.0.4
 
 
 #### 4. Membuat proyek Django dengan nama config
@@ -82,3 +82,14 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   src/config/settings.py
+
+
+#### 10. House keeping - memindahkan .git dan file .gitignore dan README.md ke dalam folder src
+
+        modified:   README.md
+        renamed:    src/config/__init__.py -> config/__init__.py
+        renamed:    src/config/asgi.py -> config/asgi.py
+        renamed:    src/config/settings.py -> config/settings.py
+        renamed:    src/config/urls.py -> config/urls.py
+        renamed:    src/config/wsgi.py -> config/wsgi.py
+        renamed:    src/manage.py -> manage.py
