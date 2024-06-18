@@ -47,3 +47,22 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 #### 6. Meng-upgrade pip
 
         (venv312504) λ python.exe -m pip install --upgrade pip
+
+
+#### 7. Membuat MySQL database
+
+        λ mysql -u root
+        Welcome to the MySQL monitor.  Commands end with ; or \g.
+        Your MySQL connection id is 403
+        Server version: 8.0.30 MySQL Community Server - GPL
+
+        Copyright (c) 2000, 2022, Oracle and/or its affiliates.
+
+        Oracle is a registered trademark of Oracle Corporation and/or its
+        affiliates. Other names may be trademarks of their respective
+        owners.
+
+        Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+        mysql> CREATE DATABASE 2466_dj5_learning_tracker;
+        Query OK, 1 row affected (0.13 sec)
