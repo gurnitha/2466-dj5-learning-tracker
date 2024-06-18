@@ -76,3 +76,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         Using cached mysqlclient-2.2.4-cp312-cp312-win_amd64.whl (203 kB)
         Installing collected packages: mysqlclient
         Successfully installed mysqlclient-2.2.4
+
+
+#### 9. Menghubungkan db dengan proyek
+
+        modified:   README.md
+        modified:   src/config/settings.py
