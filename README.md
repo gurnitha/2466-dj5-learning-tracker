@@ -749,6 +749,10 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         IntegrityError at /new_topic/
         (1048, "Column 'owner_id' cannot be null")
 
+        Solution: Create a new user
+
+        :)
+
 
 #### 59. Melindungi a User’s Topics
 
@@ -757,6 +761,12 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
 
 #### 60. Melindungi  edit_entry Page
+
+        modified:   README.md
+        modified:   app/learning_logs/views.py
+
+
+#### 61. Mengaitkan Topik Baru dengan Pengguna Saat Ini
 
         modified:   README.md
         modified:   app/learning_logs/views.py
