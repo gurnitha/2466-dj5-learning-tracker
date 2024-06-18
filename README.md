@@ -617,7 +617,7 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/accounts/urls.py
-        
+
         Note: Ada peringatan karena belum ada register view
 
           File "E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src\app\accounts\urls.py", line 17, in <module>
@@ -626,8 +626,10 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         AttributeError: module 'app.accounts.views' has no attribute 'register'
 
 
+#### 53. Membuat register() View Function
 
-
+        modified:   README.md
+        modified:   app/accounts/views.py
 
 
 
