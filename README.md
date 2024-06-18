@@ -650,3 +650,13 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         sistem registrasi pengguna sederhana seperti yang kami gunakan.
 
 
+### Melindungi sistem dari un-registered users
+
+
+#### 55. Membatasi akses ke laman topics
+
+        modified:   README.md
+        modified:   app/learning_logs/views.py
+        modified:   config/settings.py
+
+
