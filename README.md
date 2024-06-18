@@ -498,3 +498,19 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   app/learning_logs/forms.py
 
 
+#### 40. Adding New Entry part 2: Membuat Url
+
+        modified:   README.md
+        modified:   app/learning_logs/urls.py
+        
+        Note: Ada peringatan karena belum ada new_entry view 
+
+          File "E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src\app\learning_logs\urls.py", line 24, in <module>
+            path('new_entry/<int:topic_id>/', views.new_entry, name='new_entry'),
+                                              ^^^^^^^^^^^^^^^
+        AttributeError: module 'app.learning_logs.views' has no attribute 'new_entry'
+
+        Next: Membuat new_entry view
+
+
+
