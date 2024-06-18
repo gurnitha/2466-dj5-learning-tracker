@@ -376,3 +376,10 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         >>> t.entry_set.all()
         <QuerySet [<Entry: Etry 1 dari topic 1...>, <Entry: Etry 2 dari topic 1...>]>
+
+
+#### 25. Mapping a URL
+
+        modified:   README.md
+        new file:   app/learning_logs/urls.py
+        modified:   config/urls.py
