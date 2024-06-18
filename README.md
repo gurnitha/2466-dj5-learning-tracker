@@ -298,3 +298,52 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/admin.py
+
+
+#### 24. Membuat entry menggunakan admin panel
+
+        modified:   README.md
+        modified:   app/learning_logs/models.py
+        
+        mysql> SHOW TABLES;
+        +-------------------------------------+
+        | Tables_in_2466_dj5_learning_tracker |
+        +-------------------------------------+
+        | auth_group                          |
+        | auth_group_permissions              |
+        | auth_permission                     |
+        | auth_user                           |
+        | auth_user_groups                    |
+        | auth_user_user_permissions          |
+        | django_admin_log                    |
+        | django_content_type                 |
+        | django_migrations                   |
+        | django_session                      |
+        | learning_logs_entry                 |
+        | learning_logs_topic                 |
+        +-------------------------------------+
+        12 rows in set (0.00 sec)
+
+        mysql> DESC learning_logs_entry;
+        +------------+-------------+------+-----+---------+----------------+
+        | Field      | Type        | Null | Key | Default | Extra          |
+        +------------+-------------+------+-----+---------+----------------+
+        | id         | bigint      | NO   | PRI | NULL    | auto_increment |
+        | text       | longtext    | NO   |     | NULL    |                |
+        | date_added | datetime(6) | NO   |     | NULL    |                |
+        | topic_id   | bigint      | NO   | MUL | NULL    |                |
+        +------------+-------------+------+-----+---------+----------------+
+        4 rows in set (0.00 sec)
+
+        mysql> SELECT * FROM learning_logs_entry;
+        +----+---------------------+----------------------------+----------+
+        | id | text                | date_added                 | topic_id |
+        +----+---------------------+----------------------------+----------+
+        |  1 | Etry 1 dari topic 1 | 2024-06-18 06:56:24.175593 |        1 |
+        |  2 | Etry 2 dari topic 1 | 2024-06-18 06:56:34.167726 |        1 |
+        |  3 | Etry 1 dari topic 2 | 2024-06-18 06:56:42.683287 |        2 |
+        |  4 | Etry 2 dari topic 2 | 2024-06-18 06:56:56.245209 |        2 |
+        |  5 | Etry 1 dari topic 3 | 2024-06-18 06:57:06.163563 |        3 |
+        |  6 | Etry 2 dari topic 3 | 2024-06-18 06:57:15.654526 |        3 |
+        +----+---------------------+----------------------------+----------+
+        6 rows in set (0.00 sec)
