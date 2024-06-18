@@ -743,8 +743,14 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/views.py
-        
+
         Note: error
 
         IntegrityError at /new_topic/
         (1048, "Column 'owner_id' cannot be null")
+
+
+#### 59. Melindungi a User’s Topics
+
+        modified:   README.md
+        modified:   app/learning_logs/views.py
