@@ -598,3 +598,15 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   app/accounts/urls.py
         modified:   app/learning_logs/templates/learning_logs/base.html
         modified:   config/settings.py
+
+
+### Logging Out
+
+
+#### 51. Adding a Logout Form to base.html
+
+        modified:   README.md
+        modified:   app/learning_logs/templates/learning_logs/base.html
+        modified:   config/settings.py
+
+
