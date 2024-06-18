@@ -136,3 +136,20 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         Django version 5.0.4, using settings 'config.settings'
         Starting development server at http://127.0.0.1:8000/
         Quit the server with CTRL-BREAK.
+
+
+#### 13. Membuat aplikasi learning_logs di dalam app folder
+
+        (venv312504) λ mkdir app\learning_logs
+
+        E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src(main -> origin)
+        (venv312504) λ django-admin startapp learning_logs app\learning_logs
+
+        modified:   README.md
+        new file:   app/learning_logs/__init__.py
+        new file:   app/learning_logs/admin.py
+        new file:   app/learning_logs/apps.py
+        new file:   app/learning_logs/migrations/__init__.py
+        new file:   app/learning_logs/models.py
+        new file:   app/learning_logs/tests.py
+        new file:   app/learning_logs/views.py
