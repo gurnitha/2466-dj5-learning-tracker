@@ -277,3 +277,18 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/models.py
+
+
+#### 12. Menjalankan migrasi
+
+        (venv312504) λ python manage.py makemigrations learning_logs
+        Migrations for 'learning_logs':
+          app\learning_logs\migrations\0002_entry.py
+            - Create model Entry
+
+        E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src(main -> origin)
+        (venv312504) λ python manage.py migrate learning_logs 0002
+        Operations to perform:
+          Target specific migration: 0002_entry, from learning_logs
+        Running migrations:
+          Applying learning_logs.0002_entry... OK
