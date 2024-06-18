@@ -610,3 +610,24 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   config/settings.py
 
 
+### Registration
+
+
+#### 52. Membuat url register
+
+        modified:   README.md
+        modified:   app/accounts/urls.py
+        
+        Note: Ada peringatan karena belum ada register view
+
+          File "E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src\app\accounts\urls.py", line 17, in <module>
+            path('register/', views.register, name='register'),
+                              ^^^^^^^^^^^^^^
+        AttributeError: module 'app.accounts.views' has no attribute 'register'
+
+
+
+
+
+
+
