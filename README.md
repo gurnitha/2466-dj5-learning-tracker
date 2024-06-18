@@ -271,3 +271,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         |  3 | Topic 3 | 2024-06-18 06:35:44.578759 |
         +----+---------+----------------------------+
         3 rows in set (0.00 sec)
+
+
+#### 11. Membuat models Entry
+
+        modified:   README.md
+        modified:   app/learning_logs/models.py
