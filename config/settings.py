@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
+    # new locals
+    "app.learning_logs.apps.LearningLogsConfig",
 ]
 
 MIDDLEWARE = [

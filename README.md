@@ -153,3 +153,10 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         new file:   app/learning_logs/models.py
         new file:   app/learning_logs/tests.py
         new file:   app/learning_logs/views.py
+
+
+#### 14. Mendaftarkan aplikasi learning_logs pada config/settings.py
+
+        modified:   README.md
+        modified:   app/learning_logs/apps.py
+        modified:   config/settings.py
