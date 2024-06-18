@@ -807,3 +807,11 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/templates/learning_logs/topic.html
+
+
+#### 67. Membuat requirements.txt file
+
+        (venv312504) λ pip freeze > requirements.txt
+
+        modified:   README.md
+        new file:   requirements.txt
