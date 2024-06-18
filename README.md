@@ -782,3 +782,11 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   config/settings.py
+
+
+#### 63. Styling base.html dan index.html
+
+        modified:   README.md
+        modified:   app/learning_logs/templates/learning_logs/base.html
+        modified:   app/learning_logs/templates/learning_logs/index.html
+
