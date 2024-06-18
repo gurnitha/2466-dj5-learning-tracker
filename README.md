@@ -671,7 +671,7 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   README.md
         new file:   app/learning_logs/migrations/0003_topic_owner.py
         modified:   app/learning_logs/models.py
-        
+
         E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src(main -> origin)
         (venv312504) λ  python manage.py shell
         Python 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)] on win32
@@ -737,3 +737,14 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         keluarkan perintah python manage.py flush untuk membangun kembali database
         struktur. Anda harus membuat pengguna super baru, dan semuanya
         data Anda akan hilang.
+
+
+#### 58. Membatasi Akses Topik kepada Pengguna yang Sesuai
+
+        modified:   README.md
+        modified:   app/learning_logs/views.py
+        
+        Note: error
+
+        IntegrityError at /new_topic/
+        (1048, "Column 'owner_id' cannot be null")
