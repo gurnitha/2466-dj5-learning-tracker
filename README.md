@@ -754,3 +754,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/views.py
+
+
+#### 60. Melindungi  edit_entry Page
+
+        modified:   README.md
+        modified:   app/learning_logs/views.py
