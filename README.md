@@ -445,3 +445,7 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   README.md
         new file:   app/learning_logs/templates/learning_logs/topic.html
         modified:   app/learning_logs/templates/learning_logs/topics.html
+
+
+
+## USER ACCOUNTS
