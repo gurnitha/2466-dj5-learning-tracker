@@ -576,6 +576,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   config/settings.py
 
 
+### Login
+
+
 #### 48. Membuat accounts/urls.py dan menyertakannya pada config/urls.py
 
         modified:   README.md
@@ -587,3 +590,11 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         new file:   app/accounts/templates/registration/login.html
+
+
+#### 50. Membuat  LOGIN_REDIRECT_URL Settting
+
+        modified:   README.md
+        modified:   app/accounts/urls.py
+        modified:   app/learning_logs/templates/learning_logs/base.html
+        modified:   config/settings.py
