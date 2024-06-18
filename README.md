@@ -123,3 +123,16 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
           Applying auth.0011_update_proxy_permissions... OK
           Applying auth.0012_alter_user_first_name_max_length... OK
           Applying sessions.0001_initial... OK
+
+
+#### 12. Menjalankan development server untuk kali pertama
+
+        (venv312504) λ python manage.py runserver
+        Watching for file changes with StatReloader
+        Performing system checks...
+
+        System check identified no issues (0 silenced).
+        June 18, 2024 - 13:10:42
+        Django version 5.0.4, using settings 'config.settings'
+        Starting development server at http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.
