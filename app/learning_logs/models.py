@@ -1,4 +1,4 @@
-# src/app/learning_logs
+# src/app/learning_logs/models
 
 # Django and third parties modules
 from django.db import models

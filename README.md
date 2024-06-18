@@ -251,3 +251,10 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         | superuser |        1 |         1 |
         +-----------+----------+-----------+
         1 row in set (0.00 sec)
+
+
+#### 19. Mendaftarkan models Topic pada admin site
+
+        modified:   README.md
+        modified:   app/learning_logs/admin.py
+        modified:   app/learning_logs/models.py
