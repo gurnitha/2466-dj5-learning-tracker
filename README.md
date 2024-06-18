@@ -451,6 +451,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 ## USER ACCOUNTS
 
 
+### Add New Topic
+
+
 #### 35. Adding New Topics part 1: The Topic ModelForm
 
         modified:   README.md
@@ -484,3 +487,14 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         new file:   app/learning_logs/templates/learning_logs/new_topic.html
         modified:   app/learning_logs/templates/learning_logs/topics.html
         modified:   app/learning_logs/views.py
+
+
+### Add New Entry
+
+
+#### 39. Adding New Entry part 1: Membuat EntryForm template
+
+        modified:   README.md
+        modified:   app/learning_logs/forms.py
+
+
