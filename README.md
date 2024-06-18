@@ -13,3 +13,10 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   .gitignore
         modified:   README.md
+
+
+#### 3. Menginstal Django versi 5.0.4
+
+	λ venv312504\Scripts\activate.bat
+	(venv312504) λ pip install django==5.0.4
+	Collecting django==5.0.4
