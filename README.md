@@ -665,3 +665,75 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   README.md
         modified:   app/learning_logs/views.py
 
+
+#### 57. Menghubungkan data dengan user tertentu
+
+        modified:   README.md
+        new file:   app/learning_logs/migrations/0003_topic_owner.py
+        modified:   app/learning_logs/models.py
+        
+        E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src(main -> origin)
+        (venv312504) λ  python manage.py shell
+        Python 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)] on win32
+        Type "help", "copyright", "credits" or "license" for more information.
+        (InteractiveConsole)
+        >>> from django.contrib.auth.models import User
+        >>> User.objects.all()
+        <QuerySet [<User: superuser>, <User: newuser1>]>
+        >>> for user in User.objects.all():
+        ...     print(user.username, user.id)
+        ...
+        superuser 1
+        newuser1 2
+        >>> exit()
+
+        E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src(main -> origin)
+        (venv312504) λ  python manage.py makemigrations learning_logs
+        It is impossible to add a non-nullable field 'owner' to topic without specifying a default. This is because the database needs something to populate existing rows.
+        Please select a fix:
+         1) Provide a one-off default now (will be set on all existing rows with a null value for this column)
+         2) Quit and manually define a default value in models.py.
+        Select an option: 1
+        Please enter the default value as valid Python.
+        The datetime and django.utils.timezone modules are available, so it is possible to provide e.g. timezone.now as a value. Type 'exit' to exit this prompt
+        >>> 1
+        Migrations for 'learning_logs':
+          app\learning_logs\migrations\0003_topic_owner.py
+            - Add field owner to topic
+
+        E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src(main -> origin)
+        (venv312504) λ  python manage.py migrate learning_logs 0003
+        Operations to perform:
+          Target specific migration: 0003_topic_owner, from learning_logs
+        Running migrations:
+          Applying learning_logs.0003_topic_owner... OK
+
+        E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src(main -> origin)
+        (venv312504) λ  python manage.py shell
+        Python 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)] on win32
+        Type "help", "copyright", "credits" or "license" for more information.
+        (InteractiveConsole)
+        >>> from app.learning_logs.models import Topic
+        >>> for topic in Topic.objects.all():
+        ...     print(topic, topic.owner)
+        ...
+        Topic 1 superuser
+        Topic 2 superuser
+        Topic 3 superuser
+        test-new-topic-1 superuser
+        test-new-topic-2 superuser
+        test-new-topic-3 superuser
+        test-new-topic-4 superuser
+        >>> exit()
+
+        Note
+
+        Anda cukup mereset database daripada menjalankan migrasi, tapi
+        yang Anda akan kehilangan semua data yang ada. 
+
+        Ini adalah praktik yang baik untuk mempelajari caranya
+        untuk memigrasi database dengan tetap menjaga integritas
+        data pengguna. Jika Anda ingin memulai dengan database baru,
+        keluarkan perintah python manage.py flush untuk membangun kembali database
+        struktur. Anda harus membuat pengguna super baru, dan semuanya
+        data Anda akan hilang.
