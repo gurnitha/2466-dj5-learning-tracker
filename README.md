@@ -574,3 +574,10 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   README.md
         modified:   app/accounts/apps.py
         modified:   config/settings.py
+
+
+#### 48. Membuat accounts/urls.py dan menyertakannya pada config/urls.py
+
+        modified:   README.md
+        new file:   app/accounts/urls.py
+        modified:   config/urls.py
