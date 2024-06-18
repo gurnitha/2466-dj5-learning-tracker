@@ -502,7 +502,7 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/urls.py
-        
+
         Note: Ada peringatan karena belum ada new_entry view 
 
           File "E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src\app\learning_logs\urls.py", line 24, in <module>
@@ -513,4 +513,8 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         Next: Membuat new_entry view
 
 
+#### 41. Adding New Entry part 3: Membuat new_entry view
+
+        modified:   README.md
+        modified:   app/learning_logs/views.py
 
