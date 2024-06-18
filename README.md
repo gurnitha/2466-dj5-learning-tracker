@@ -551,3 +551,19 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         new file:   app/learning_logs/templates/learning_logs/edit_entry.html
         modified:   app/learning_logs/templates/learning_logs/topic.html
         modified:   app/learning_logs/views.py
+
+
+
+### Setting Up User Accounts
+
+
+#### 46. Membuat aplikasi accounts di dalam folder app
+
+        modified:   README.md
+        new file:   app/accounts/__init__.py
+        new file:   app/accounts/admin.py
+        new file:   app/accounts/apps.py
+        new file:   app/accounts/migrations/__init__.py
+        new file:   app/accounts/models.py
+        new file:   app/accounts/tests.py
+        new file:   app/accounts/views.py
