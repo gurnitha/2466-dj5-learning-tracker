@@ -390,3 +390,10 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   README.md
         modified:   app/learning_logs/urls.py
         modified:   app/learning_logs/views.py
+
+
+#### 27. Membuat template
+
+        modified:   README.md
+        new file:   app/learning_logs/templates/learning_logs/index.html
+        modified:   config/settings.py
