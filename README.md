@@ -790,3 +790,8 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   app/learning_logs/templates/learning_logs/base.html
         modified:   app/learning_logs/templates/learning_logs/index.html
 
+
+#### 64. Styling the Login Page
+
+        modified:   README.md
+        modified:   app/accounts/templates/registration/login.html
