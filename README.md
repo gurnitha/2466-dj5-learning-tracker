@@ -66,3 +66,13 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         mysql> CREATE DATABASE 2466_dj5_learning_tracker;
         Query OK, 1 row affected (0.13 sec)
+
+
+#### 8. Menginstal MySQL driver
+
+        (venv312504) λ pip install mysqlclient
+        Collecting mysqlclient
+          Using cached mysqlclient-2.2.4-cp312-cp312-win_amd64.whl.metadata (4.6 kB)
+        Using cached mysqlclient-2.2.4-cp312-cp312-win_amd64.whl (203 kB)
+        Installing collected packages: mysqlclient
+        Successfully installed mysqlclient-2.2.4
