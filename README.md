@@ -160,3 +160,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   README.md
         modified:   app/learning_logs/apps.py
         modified:   config/settings.py
+
+
+#### 15. Membuat models Topic 
+
+        modified:   README.md
+        modified:   app/learning_logs/models.py
