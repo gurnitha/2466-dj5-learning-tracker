@@ -524,3 +524,16 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   README.md
         new file:   app/learning_logs/templates/learning_logs/new_entry.html
         modified:   app/learning_logs/templates/learning_logs/topic.html
+
+
+#### 43. Edit Entry part 1: Membuat edit_entry URL
+
+        modified:   README.md
+        modified:   app/learning_logs/urls.py
+        
+        Note: Ada peringatan karena belum ada edit_entry view 
+
+          File "E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src\app\learning_logs\urls.py", line 25, in <module>
+            path('edit_entry/<int:entry_id>/', views.edit_entry, name='edit_entry'),
+                                               ^^^^^^^^^^^^^^^^
+        AttributeError: module 'app.learning_logs.views' has no attribute 'edit_entry'
