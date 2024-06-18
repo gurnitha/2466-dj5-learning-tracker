@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # new locals
     "app.learning_logs.apps.LearningLogsConfig",
+    "app.accounts.apps.AccountsConfig",
 ]
 
 MIDDLEWARE = [

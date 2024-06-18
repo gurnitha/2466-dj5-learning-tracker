@@ -567,3 +567,10 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         new file:   app/accounts/models.py
         new file:   app/accounts/tests.py
         new file:   app/accounts/views.py
+
+
+#### 47. Mendaftarkan aplikasi accounts pada config/settings.py
+
+        modified:   README.md
+        modified:   app/accounts/apps.py
+        modified:   config/settings.py
