@@ -801,3 +801,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/templates/learning_logs/topics.html
+
+
+#### 66. Styling Entries pada laman Topic
+
+        modified:   README.md
+        modified:   app/learning_logs/templates/learning_logs/topic.html
