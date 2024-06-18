@@ -632,4 +632,21 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   app/accounts/views.py
 
 
+#### 54. Membuat  register template
+
+        modified:   README.md
+        new file:   app/accounts/templates/registration/register.html
+        modified:   app/learning_logs/templates/learning_logs/base.html
+
+        Note:
+
+        Sistem pendaftaran yang kami siapkan memungkinkan siapa saja untuk melakukannya
+        sejumlah akun untuk Log Pembelajaran. Beberapa sistem
+        mengharuskan pengguna untuk mengkonfirmasi identitas mereka dengan mengirimkan a
+        email konfirmasi yang harus dibalas pengguna. Dengan melakukan hal tersebut,
+        sistem menghasilkan lebih sedikit akun spam daripada sistem yang sederhana
+        yang kami gunakan di sini. Namun, saat Anda sedang belajar
+        membangun aplikasi, sangat tepat untuk berlatih dengan sebuah
+        sistem registrasi pengguna sederhana seperti yang kami gunakan.
+
 
