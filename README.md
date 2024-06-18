@@ -470,3 +470,9 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         AttributeError: module 'app.learning_logs.views' has no attribute 'new_topic'
 
         Next: Membuat view
+
+
+#### 37. Adding New Topics part 3: Membuat View dan logiknya
+
+        modified:   README.md
+        modified:   app/learning_logs/views.py
