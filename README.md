@@ -431,3 +431,10 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         modified:   app/learning_logs/templates/learning_logs/base.html
+
+
+#### 33. Membuat laman detail topic: View dan Url
+
+        modified:   README.md
+        modified:   app/learning_logs/urls.py
+        modified:   app/learning_logs/views.py
