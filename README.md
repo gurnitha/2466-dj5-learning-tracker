@@ -180,3 +180,36 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
           Target specific migration: 0001_initial, from learning_logs
         Running migrations:
           Applying learning_logs.0001_initial... OK
+
+
+#### 17. Memeriksa hasil migrasi pada database
+
+        mysql> USE 2466_dj5_learning_tracker;
+        Database changed
+        mysql> SHOW tables;
+        +-------------------------------------+
+        | Tables_in_2466_dj5_learning_tracker |
+        +-------------------------------------+
+        | auth_group                          |
+        | auth_group_permissions              |
+        | auth_permission                     |
+        | auth_user                           |
+        | auth_user_groups                    |
+        | auth_user_user_permissions          |
+        | django_admin_log                    |
+        | django_content_type                 |
+        | django_migrations                   |
+        | django_session                      |
+        | learning_logs_topic                 |
+        +-------------------------------------+
+        11 rows in set (0.01 sec)
+
+        mysql> DESC learning_logs_topic;
+        +------------+--------------+------+-----+---------+----------------+
+        | Field      | Type         | Null | Key | Default | Extra          |
+        +------------+--------------+------+-----+---------+----------------+
+        | id         | bigint       | NO   | PRI | NULL    | auto_increment |
+        | text       | varchar(200) | NO   |     | NULL    |                |
+        | date_added | datetime(6)  | NO   |     | NULL    |                |
+        +------------+--------------+------+-----+---------+----------------+
+        3 rows in set (0.04 sec)
