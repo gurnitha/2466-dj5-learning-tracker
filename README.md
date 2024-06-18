@@ -455,3 +455,18 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
 
         modified:   README.md
         new file:   app/learning_logs/forms.py
+
+
+#### 36. Adding New Topics part 2: Url
+
+        modified:   README.md
+        modified:   app/learning_logs/urls.py
+
+        Note: Ada peringatan, belum ada view
+
+        File "E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker\src\app\learning_logs\urls.py", line 21, in <module>
+            path('new_topic/', views.new_topic, name='new_topic'),
+                               ^^^^^^^^^^^^^^^
+        AttributeError: module 'app.learning_logs.views' has no attribute 'new_topic'
+
+        Next: Membuat view
