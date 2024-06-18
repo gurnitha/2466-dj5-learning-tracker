@@ -258,3 +258,16 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   README.md
         modified:   app/learning_logs/admin.py
         modified:   app/learning_logs/models.py
+
+
+#### 10. Membuat topik melalui admin panel
+
+        mysql> SELECT * FROM learning_logs_topic;
+        +----+---------+----------------------------+
+        | id | text    | date_added                 |
+        +----+---------+----------------------------+
+        |  1 | Topic 1 | 2024-06-18 06:35:26.576089 |
+        |  2 | Topic 2 | 2024-06-18 06:35:37.107576 |
+        |  3 | Topic 3 | 2024-06-18 06:35:44.578759 |
+        +----+---------+----------------------------+
+        3 rows in set (0.00 sec)
