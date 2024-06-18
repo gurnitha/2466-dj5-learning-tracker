@@ -660,3 +660,8 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         modified:   config/settings.py
 
 
+#### 56. Membatasi akses ke seluruh Learning Log
+
+        modified:   README.md
+        modified:   app/learning_logs/views.py
+
