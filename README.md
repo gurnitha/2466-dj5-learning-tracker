@@ -42,3 +42,8 @@ Local: E:\_WORKSPACE\2024\django\2466\2466-dj5-learning-tracker
         renamed:    config/config/urls.py -> src/config/urls.py
         renamed:    config/config/wsgi.py -> src/config/wsgi.py
         renamed:    config/manage.py -> src/manage.py
+
+
+#### 6. Meng-upgrade pip
+
+        (venv312504) λ python.exe -m pip install --upgrade pip
